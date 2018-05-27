@@ -1,0 +1,17 @@
+{
+  "name": "graphmanip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/algo/fordFulkerson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graph"
+  ],
+  "author": "rida htiti",
+  "license": "MIT",
+  "dependencies": {
+    "graph-theory-ford-fulkerson": "^1.0.0"
+  }
+}
