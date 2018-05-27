@@ -178,6 +178,7 @@ if(Bellmanford!=null){
             var model= document.getElementById("modal-body");
             var html='<ul class="list-group">';
              html+='<li class="list-group-item"> le flot max du graph : ' +flow+'</li>';
+             
             html+="</ul>";
             model.innerHTML=html;
             $("#warshallModel").modal();
