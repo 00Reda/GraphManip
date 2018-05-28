@@ -45,11 +45,14 @@ var bellmanford=function(n){
                 var elm = vs[i];
                 if(element!=elm)
                 arcs.push([element,elm]);
-        
+                if(voisin.includes(elm)==false) voisin.push(elm);
             }
         }
        
     }
+    /*
+            we need a test her
+    */
     var m=getMatrix();
     for (var index = 0; index < nodes.length-1; index++) {
         var node = nodes[index];
